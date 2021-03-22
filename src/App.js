@@ -11,6 +11,10 @@ import ContextProvider from "./Hooks/Context/ContextProvider";
 import DemoHookRedux from "./Hooks/DemoHookRedux";
 import DemoUseSpring from "./Hooks/DemoUseSpring";
 import Ex2UseString from "./Hooks/Ex2UseString";
+import Ex3UseSprings from "./Hooks/Ex3UseSprings";
+import Ex4UseTrail from "./Hooks/Ex4UseTrail";
+import Ex5UseTransition from "./Hooks/Ex5UseTransition";
+import Ex6UseChain from "./Hooks/Ex6UseChain";
 
 function App() {
   return (
@@ -25,7 +29,11 @@ function App() {
         {/* <DemoHookUseContext /> */}
         {/* <DemoHookRedux /> */}
         {/* <DemoUseSpring /> */}
-        <Ex2UseString />
+        {/* <Ex2UseString /> */}
+        {/* <Ex3UseSprings /> */}
+        {/* <Ex4UseTrail /> */}
+        {/* <Ex5UseTransition /> */}
+        {/* <Ex6UseChain /> */}
       </div>
     </ContextProvider>
   );
